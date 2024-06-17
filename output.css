@@ -1,0 +1,23 @@
+
+
+.font-rishi-font{
+  font-family: Poppins, sans-serif
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
+.font-bold{
+  font-weight: 700
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(88 108 167 / var(--tw-text-opacity))
+}
+
+.underline{
+  text-decoration-line: underline
+}

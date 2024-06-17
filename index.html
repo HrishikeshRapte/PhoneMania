@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://cdn.Tailwindcss.com"></script>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous"/>
+    <title>Tailwind Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-black">
+    <!-- navbar -->
+    <nav class="bg-blue-950 text-white flex justify-between py-0" style="padding: 0px; margin: 0px;">
+      <span class="flex mx-4  items-center font-mono cursor-pointer">
+        <b class="text-3xl tracking-widest px-12 hover:scale-110 duration-500">Ph<i class="fa-solid fa-mobile-screen-button text-2xl tracking-wider scale-105 duration-700"></i>nesMania</b></span
+      >
+      <ul class="px-12 py-2 flex space-x-11 justify-center my-4 mx-2 text-xl">
+        <li class="cursor-pointer hover:scale-125 duration-200 font-semibold">Home</li>
+        <li class="cursor-pointer hover:scale-125 duration-200 font-semibold">Feedback</li>
+        <li class="cursor-pointer hover:scale-125 duration-200 font-semibold">ContactUs</li>
+        <li class="cursor-pointer hover:scale-125 duration-200 font-semibold">About</li>
+        <li><div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Brands
+          </a>
+        
+          <ul class="dropdown-menu" style="text-align: center; background-color: rgb(231, 240, 243);">
+            <li><a class="dropdown-item hover:bg-slate-200" href="https://www.apple.com/in/iphone/"><b>Apple</b></a></li>
+            <li><a class="dropdown-item hover:bg-red-200" href="https://www.samsung.com/in/smartphones/all-smartphones/?cid=in_pd_ppc_google_ce-smasungmonitor-na-monitor-dtc_sales_samsung-monitor-all-2023_eshop-pmax-pla_01jan2023-na_1ur-501468l-2024-eshop-bau-performancemax-cpc_pfm--16317230632------x--&gad_source=1&gclid=Cj0KCQjwmMayBhDuARIsAM9HM8dcs8qkjiR12UwzHkt4qJEgt0kK1Yigec18-FWimQ53doNlmThCv8IaAqUoEALw_wcB"><b>Samsung</b></a></li>
+            <li><a class="dropdown-item hover:bg-blue-300" href="https://www.oneplus.in/"><b>OnePLus</b></a></li>
+            <li><a class="dropdown-item hover:bg-blue-400" href="https://store.google.com/category/phones?pli=1&hl=en-GB"><b>Google Pixel</b></a></li>
+            <li><a class="dropdown-item hover:bg-purple-400" href="https://www.oppo.com/in/store/contents/event/oppo-3rd-anniversary-2024/?gad_source=1&gclid=Cj0KCQjwmMayBhDuARIsAM9HM8d-MP16nZ8yLQ5IlyXmifcqI29VOZa81GiQos7-enYJ02wkxk2Y9xYaArbfEALw_wcB"><b>Oppo</b></a></li>
+          </ul>
+        </div></li>
+      </ul>
+    </nav>
+
+    <!-- moving text marquee-->
+    <marquee direction="right"  scrollamount="12" style="height:40px; margin-top:0px; margin-bottom:0px" class="font-bold bg-black py-2 text-lg text-white"><i>Apply Coupon code "TECH10" to avail 10% OFF </i></marquee>
+
+    <hr style="background-color: black; height: 2px; margin-top: 0px;">
+    
+    <!-- main text -->
+    <main class="bg-black flex justify-around" style="margin-top:0px;">
+      <div class="main bg-gradient-to-t from-black to-black py-10 pl-9">
+        <div class="text-6xl font-thin px-10 text-blue-500 animate-pulse">
+          The Best in Reasonable Price! <b class="text-white text-8xl animate-">MobilePhones..</b>
+        </div>
+
+          <!-- Cards -->
+        <a href="https://www.apple.com/in/iphone/"><div class="cards mx-5 my-0" style="display: flex">
+          <div class="card px-12 py-4 mx-4 my-20  hover:scale-125  duration-300" style="width:14rem; border-radius: 43px; border-width: 1px ;justify-content: center; background-color:rgba(148, 223, 255, 0.114);">
+            <img src="https://img.etimg.com/thumb/width-1000,height-1000,imgsize-9900,resizemode-75,msid-103625221/news/how-to/when-can-you-buy-apple-iphone-15-phones-in-india-whats-the-price.jpg" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center font-semibold my-0 text-white">I Phones starting @ Rs.39999*</p>
+            </div>
+          </div></a>
+
+          
+           <!-- Cards -->
+           <a href="https://www.samsung.com/in/smartphones/all-smartphones/?cid=in_pd_ppc_google_ce-smasungmonitor-na-monitor-dtc_sales_samsung-monitor-all-2023_eshop-pmax-pla_01jan2023-na_1ur-501468l-2024-eshop-bau-performancemax-cpc_pfm--16317230632------x--&gad_source=1&gclid=Cj0KCQjwmMayBhDuARIsAM9HM8dcs8qkjiR12UwzHkt4qJEgt0kK1Yigec18-FWimQ53doNlmThCv8IaAqUoEALw_wcB"><div class="card px-12 py-4 mx-16 my-20  hover:scale-125 duration-500" style="width:14rem; border-radius: 43px;  border-width: 1px; justify-content: center;background-color:rgba(148, 223, 255, 0.114); animation-play-state: running;">
+            <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2023/12/29/892F19FE-EFD4-46B7-A7AE-2CBED447DA73/este-sera-precio-samsung-galaxy-s24-seran-mas-baratos-esperado_103.jpg?crop=1000,750,x151,y0&width=1750&height=1700&optimize=low&format=webply" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center font-semibold  text-white">Samsung starting @ Rs.12000*</p>
+            </div>
+          </div>
+        </div></a>
+
+
+        <!-- buttons  -->
+        <div class="buttons px-56" style="margin-bottom: 9px;">
+          <button class="bg-gradient-to-t from-white to-black px-5 py-3 rounded-2xl hover:text-white hover:bg-indigo-600 duration-500 font-semibold text-2xl">
+          <a href="https://www.apple.com/in/iphone/">Buy now</a>
+          </button>
+        </div>
+
+         
+      </div>
+
+      <!-- Right side -->
+      <!-- <div class="flex items-center mx-1">
+        <img src="bg.png" class="py-0 hover:scale-125 duration-500 size-fit" />
+      </div>  -->
+
+      <div class="pt-52 pr-36 ">
+        <video src="phone add.mp4" autoplay loop muted height="200px" class="py-0 pr-4" cont></video>
+      </div>
+
+          <!-- <div class="footer">
+                <span class="text-white px-64">Contact - 9130x3231</span>
+                <hr class="mb- w-2/3 mx-60 my-5">
+              <div class="footer">
+                <div class="text-4xl pb-5 text-center space-x-10 text-white">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook text-white"></i></a>
+                  <a href=""><i class="fa-brands fa-github text-white"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+            
+          </div> -->
+
+    </main>
+  </body>
+</html>
